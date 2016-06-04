@@ -1,0 +1,508 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+		<script src="file:///C:\Users\gurusangamaprasad.S\Documents\jquery-1.12.4.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			$('#imply :checkbox').click(function() {
+			var $this = $(this);
+      
+			if ($this.is(':checked')) {
+			$(".tbh").css("visibility","visible");
+			$(".tbh").css("max-height","200px");
+			} else
+			{
+				$(".tbh").hide();
+				$(".tbh").css("max-height","10px");
+			}
+			})
+			$("#sub").click(function(){
+			$(".tbv").slideUp("slow");
+			$("#shown").css("visibility","visible");
+			})
+			$("#gb").click(function(){
+			$(".tbv").show();
+			$("#shown").css("visibility","hidden");
+			})
+			$('#passport :checkbox').click(function() {
+			var $this = $(this);
+      
+			if ($this.is(':checked')) {
+			$("#passport>p").css("visibility","visible");
+			$("#passport").css("max-height","150px");
+			
+			} else {
+			$("#passport>p").css("visibility","hidden");
+			
+				$("#passport").css("max-height","10px");
+        
+			}
+			})
+			$('#photographs :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#photographs>p").css("visibility","visible");
+			$("#photographs").css("max-height","150px");
+			
+			} else {
+				$("#photographs>p").css("visibility","hidden");
+				$("#photographs").css("max-height","10px");	
+			}
+			})
+			$('#visa :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#visa>p").css("visibility","visible");
+			$("#visa").css("max-height","150px");
+			
+			} 
+			else {
+			$("#visa>p").css("visibility","hidden");
+			$("#visa").css("max-height","10px");	
+			}
+			})
+			$('#proof :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#proof>p").css("visibility","visible");
+			$("#proof").css("max-height","150px");
+			
+			} else {
+      
+				$("#proof").css("max-height","10px");
+				$("#proof>p").css("visibility","hidden");
+			}
+			})
+			$('#covering :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#covering>p").css("visibility","visible");
+			$("#covering").css("max-height","150px");
+			
+			} else {
+       
+				$("#covering").css("max-height","10px");
+				$("#covering>p").css("visibility","hidden");
+			}
+			})
+			$('#travel :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#travel>p").css("visibility","visible");
+			$("#travel").css("max-height","150px");
+			
+			} else {
+			
+				$("#travel").css("max-height","10px");
+			$("#travel>p").css("visibility","hidden");
+			}
+			})
+			$('#traveli :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#traveli>p").css("visibility","visible");
+			$("#traveli").css("max-height","150px");
+			
+			} else {
+			
+				$("#traveli").css("max-height","10px");
+			$("#traveli>p").css("visibility","hidden");
+			}
+			})
+			$('#for :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#for>p").css("visibility","visible");
+			$("#for").css("max-height","150px");
+			
+			} else {
+			
+				$("#for").css("max-height","10px");
+			$("#for>p").css("visibility","hidden");
+			}
+			})
+			$('#form :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#form>p").css("visibility","visible");
+			$("#form").css("max-height","250px");
+			
+			} else {
+			
+				$("#form").css("max-height","10px");
+			$("#form>p").css("visibility","hidden");
+			}
+			})
+			$('#documents :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#documents>p").css("visibility","visible");
+			$("#documents").css("max-height","150px");
+			
+			} else {
+		
+				$("#documents").css("max-height","10px");
+			$("#documents>p").css("visibility","hidden");
+			}
+			})
+			$('#documentsf :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#documentsf>p").css("visibility","visible");
+			$("#documentsf").css("max-height","150px");
+			
+			} else {
+			
+			$("#documentsf>p").css("visibility","hidden");
+			$("#documentsf").css("max-height","10px");
+			}
+			})
+			$('#documentsfo :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#documentsfo>p").css("visibility","visible");
+			$("#documentsfo").css("max-height","150px");
+			
+			} else {
+			
+				$("#documentsfo").css("max-height","10px");
+			$("#documentsfo>p").css("visibility","hidden");
+			}
+			})
+			$('#authorization :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#authorization>p").css("visibility","visible");
+			$("#authorization").css("max-height","150px");
+			
+			} else {
+			
+				$("#authorization").css("max-height","10px");
+			$("#authorization>p").css("visibility","hidden");
+			}
+			})
+			$('#flight :checkbox').click(function() {
+			var $this = $(this);
+			if ($this.is(':checked')) {
+			$("#flight>p").css("visibility","visible");
+			$("#flight").css("max-height","150px");
+			
+			} else {
+			$("#flight>p").css("visibility","hidden");
+			
+				$("#flight").css("max-height","10px");
+        
+			}
+			})
+			
+			});
+			
+		</script>
+		<style>
+		.Wrapper
+		{
+		max-width:1000px;
+		}
+		
+		header
+		{
+		text-align:center;
+		padding:15px;
+		-webkit-box-shadow: 2px 5px 5px 0px rgba(230, 205, 230, 1);
+		margin-bottom:20px;
+		background-color:#5bc0de;
+		-webkit-border-radius:5px;
+		
+		width:100%;
+		}
+		.tbv
+		{
+		
+		}
+			h1,h3
+			{
+				font-family:Arial;
+			}
+			.tbh
+			{
+			visibility:hidden;
+			max-height:10px;
+			}
+			body
+			{
+			font-family:Arial;
+			
+			}
+			input
+			{
+				-webkit-border-radius:5px;
+			}
+			input[type="button"],input[type="submit"]
+			{
+			background-color:#5DADE2;
+			color:white;
+			-webkit-box-shadow: 2px 5px 5px 0px rgba(230, 205, 230, 1);
+			}
+			input[type="submit"]
+			{
+			 padding:10px;
+			 margin-left:45%;
+			}
+			input[type="file"]
+			{
+			width: 0.1px;
+	        height: 0.1px;
+	        opacity: 0;
+			overflow: hidden;
+			position: absolute;
+			z-index: -1;
+			}
+			input[type="file"] + label {
+			
+			font-weight: 700;
+			color: white;
+			background-color: #5bc0de;
+			display: inline-block;
+			padding:7px;
+			
+			}
+			p
+			{
+			padding-left:20px;
+			}
+			h3
+			{
+			font-size:20px;
+			}
+
+			input[type="file"]:focus + label,
+			input[type="file"] + label:hover {
+			background-color: #85C1E9;
+			}
+			input[type="file"] + label {
+			cursor: pointer; /* "hand" cursor */
+			}
+			input[type="file"] + label 
+			{
+			margin-right:5%;
+			margin-left:3%;
+			-webkit-border-radius:5px;
+			-webkit-box-shadow: 2px 5px 5px 0px rgba(230, 205, 230, 1);
+			}
+			input[type="file"]+ label * {
+			outline: 1px dotted #000;
+			outline: -webkit-focus-ring-color auto 5px;
+			-webkit-box-shadow: 2px 5px 5px 0px rgba(230, 205, 230, 1);
+			margin-right:5%;
+			pointer-events: none;
+		}
+		h3,h1
+		{
+		padding-left:10px;
+		}
+		input[type="checkbox"] {
+    display
+}
+input[type="checkbox"] + label {
+    display:inline-block;
+    width:19px;
+    height:19px;
+	margin:-1px 4px 0 0;
+    background-image:url("http://www.clipartbest.com/cliparts/yTo/gj4/yTogj4zEc.png") ;
+	cursor:pointer;
+	}
+	input[type="checkbox"]:checked + label {
+    background:url("http://www.clker.com/cliparts/t/F/v/y/g/I/nxt-checkbox-checked-md.png") -19px top no-repeat;
+}
+#shown,#passport,#photographs,#visa,#covering,#travel,#traveli,#proof,#authorization,#for,#form,#documents,#documentsf,#documentsfo,#flight{
+visibility:hidden;
+width:100%;
+max-height:10px;
+}
+#passport h3,#photographs h3,#visa h3,#covering h3,#travel h3,#traveli h3,#proof h3,#authorization h3,#for h3,#form h3,#documents h3,#documentsf h3,#documentsfo h3,#flight h3
+{
+visibility:visible;
+
+}
+
+		</style>
+	</head>
+	<body>
+		<div id="Wrapper">
+			<header>
+			<h1><b>SPAIN CHECKLIST</b></h1>
+			</header>
+			<div id="shown">
+				<h3>Your application will be submitted <h3>
+				<input type="button" value="Go Back" id="gb"/>
+			</div>
+			<div class="tbv">
+				Intended date of travel to the Schengen territory:<input type="date" required/></br></br>
+				<form action="" id="imply">
+				<input type="checkbox" />Between your date of application and date of travel to Spain, do you intend to travel to any other country</br>
+				</form>
+				<form action="">
+				<div class="tbh">
+				Date of travel: <input type="date" class="tbh"/></br></br>
+				Name of the Country: <input type="text" class="tbh"/></br></br>
+				<input type="checkbox" />Have you been informed by the VFS staff about the stipulated processing time?</br>
+				</form>
+				<form id="form11">
+				<input type="checkbox" />Do you wish to continue with your application inspite of the stipulated processing time?</br>
+				</div>
+			</form>
+			
+			<h1>Minimum documentation for all visas categories:</h1>
+			<form>
+			<div id="passport">
+			<h3><input type="checkbox" />			Passport</h3>
+			
+			 <p>Valid at least 3 months beyond the stay in Spain with two blank pages</br>
+			 <p>Not older 10 years when applying for a visa </br>
+			 <p>With at least 2 blank pages </br>
+			 <p>Photocopies of all the pages of the current and previous passport (if any). <input type="file" multiple/><label for="file">Choose file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+			</div>
+			<div id="photographs">
+<h3><input type="checkbox" />			 Photographs</h3>
+
+<p>Not more than 6 months old</br>
+<p>With white background.</br>
+
+<input type="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br></div>
+<div id="visa"><h3><input type="checkbox" /> Visa application form for Schengen Visa</h3>
+
+<p>Either filled in Blue pen or printed online.</br>
+<p>Must bear original signatures of the applicant on page 3 (field no. 37) and page 4.</br>
+<p>Two photocopies of the duly filled application form. <input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br></div>
+<div id="covering"><h3><input type="checkbox" /> Covering letter from the applicant</h3>
+<p>Purpose of travel</br>
+<p>Dates of travel. <input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br></div>
+<div id="travel"><h3><input type="checkbox" /> Travel Insurance Policy</h3>
+<p>Issued by insurance company as per the EU guidelines.</br>
+<p>Valid for at least 15 days from the date of return to India.</br>
+<p>Minimum coverage of 30,000 Euros or 50,000 $</br>
+<p>Sworn declaration for travel insurance signed by the applicant. <input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br></div>
+<div id="traveli"><h3><input type="checkbox" /> Travel itineraries</h3>
+
+<p>Hotel accommodation.</br>
+<p>Confirmed return flight tickets.<input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+</div><div id="proof"><h3><input type="checkbox" /> Proof of economic means</h3>
+<p>Salary slips for last six months.</br>
+<p>Personal bank statement for the last three months (either stamped on first/last page or original bank statement).</br>
+<p>Income tax returns for last three years.</br>
+<p>Copy of PAN card of the applicant (if available).<input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+</div><div id="authorization"><h3><input type="checkbox" /> Authorization letter in favour of VFS Global.</h3>
+<p>Signed by the applicant.<input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+</div><div id="for"><h3><input type="checkbox" /> For business visas</h3>
+<p>Invitation letter from the Spanish company.</br>
+<p>Support letter from the Indian company.<input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+
+</div><div id="form"><h3><input type="checkbox" /> For minor applicants</h3>
+<p>Application form signed by both the parents</br>
+<p>Passport copy of parents in case of minor applicants.</br>
+<p>NOC from parents in case the minor applicant is travelling with one parent or legal guardian.</br>
+<p>Financial documents of parents must be accompanied by photocopy of the parents’
+<p>passports. <input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+</div><div id="documents"><h3><input type="checkbox" /> Documents for family Visit</h3>
+<p>Original Invitation before Policia Nacional in case of family or friend visit. (1 photocopy)</br>
+<p>Attested copy of the passport and the DNI or residence card of the person living in Spain. <input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+</div><div id="documentsf"><h3><input type="checkbox" /> Documents for Students</h3>
+<p>Invitation Letter from Spanish University /Institute- Admission Confirmation Letter.</br>
+<p>Transactions of the fee payment.</br>
+<p>Proof of sufficient economic means. Financial documents of parents must be accompanied by photocopy of the parent’s passports and a letter of responsibility. <input type="file" id="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+</div><div id="documentsfo"><h3><input type="checkbox" /> Documents for Seaman</h3>
+<p>Original letter from the local shipping agents</br>
+<p>Original letter from the shipping agents in Spain.</br>
+<p>Continuous discharge book and photocopy of the same.<input type="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+</div><div id="flight"><h3><input type="checkbox" /> Flight reservations.</h3></br>
+<p>“Anejo II: Impreso para marinos en Transito sujetos a la obligación de visados” issued by “El
+puesto fronterizo del puerto” duly filled and stamped by the competent authorities. <input type="file" multiple/><label for="file">Choose a file</label><button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-upload"></span> Upload
+    </button>
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-remove"></span>Cancel Upload 
+    </button></br></br></br>
+	</div>		</form>
+			<p>Note: The above is not an exhaustive list of documentation. Applicant can be requested to
+submit additional documents or may be called for an Interview (if required) by the Embassy. The
+visa fee, according to Schengen regulations, is non-refundable. All original documents must
+always be accompanied by at least one photocopy of the same.</p>
+        <form>Declaration:
+I <input type="text" placeholder="Name">..Passport <input type="text" placeholder="passpost number">voluntarily agrees to avail the services of
+VFS Global Services Pvt. Ltd. to apply for a Schengen
+Visa at the Spain Desk.
+</form>
+		
+		<p>Note:Upload all the documents in the respective section</p>
+		<input type="submit" value="SUBMIT" id="sub"/>
+		</div>
+		</div>
+	</body>
+</html>
